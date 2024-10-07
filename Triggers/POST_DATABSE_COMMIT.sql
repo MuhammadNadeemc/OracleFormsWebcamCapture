@@ -9,10 +9,6 @@ BEGIN
       p_file_name => v_file_name             -- Output file name
    );
 
-   -- Confirm the image was saved
-   MESSAGE('Image saved as ' || v_file_name);
-   PAUSE;
-
 EXCEPTION
    WHEN OTHERS THEN
       MESSAGE('Error: ' || SQLERRM);
