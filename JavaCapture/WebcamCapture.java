@@ -39,7 +39,6 @@ public class WebcamCapture {
         camera.set(Videoio.CAP_PROP_AUTOFOCUS, 0); // Turn off auto-focus (0 = off, 1 = on)
         camera.set(Videoio.CAP_PROP_FOCUS, 10); // Set focus manually, adjust value as needed
         camera.set(Videoio.CAP_PROP_AUTO_EXPOSURE, 0.25); // 0.25 = Manual mode for some webcams
-        camera.set(Videoio.CAP_PROP_EXPOSURE, -6); // Adjust exposure, values vary by camera
         camera.set(Videoio.CAP_PROP_BRIGHTNESS, 150); // Adjust brightness, values vary by camera
 
         // Allow the camera some time to adjust settings
